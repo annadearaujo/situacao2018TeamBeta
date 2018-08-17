@@ -1,0 +1,187 @@
+/*codigo para nav bar*/
+*{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 100px;
+}
+
+li {
+    float: right; 
+    padding-top: 35px;
+    padding-right: 50px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+ span a:hover {
+    text-decoration: none;
+    border-bottom: 3px solid #858686;
+    color: white;
+}
+/*hover da navbar*/
+    .beta1 a:hover{
+    text-decoration: none;
+    border-bottom: 3px solid #2090fc;
+    color: #2090fc;    
+    }
+    .beta2 a:hover{
+    text-decoration: none;
+    border-bottom: 3px solid #d9a420;
+    color: #d9a420;     
+    }
+    .beta3 a:hover{
+    text-decoration: none;
+    border-bottom: 3px solid #b32323;
+    color: #b32323;     
+    }
+    .beta4 a:hover{
+    text-decoration: none;
+    border-bottom: 3px solid #2e8c58;
+    color: #2e8c58;     
+    }
+    .li_beta1{
+        margin-right: 180px;
+    }
+    .li-beta{
+        margin-right: 250px;
+    }
+/*codico para conteudo, se mecher apanha*/
+.col-1{
+    margin-left: 120px;
+    margin-right: 1150px;
+}
+.col-2{
+    margin-right: 570px; 
+    margin-left: 900px;
+    margin-top: -90px;
+}
+.col-3{
+    margin-right: 120px;
+    margin-left: 1450px;
+    margin-top: -18px;
+}
+
+
+/*midia queries, se mecher eu mato 2 vezes e revivo para consertar o codigo*/
+
+
+/* Telefones em paisagem e abaixo */
+@media (max-width: 360px) { 
+    span{
+        display: none;
+    } 
+    .dropdown{
+        display: block;    
+    }
+ }
+@media (max-width: 480px) { 
+    span{
+        display: none;
+    } 
+    .dropdown{
+        display: block;    
+    }
+ }
+ 
+/* Telefones em paisagem a tablet em retrato */
+@media (max-width: 768px) {
+     ul {
+    height: 100px;
+    }
+    li {
+    padding-right: 25px;
+    }
+     .li_beta1{
+        margin-right: -15px;
+    }
+    .li-beta{
+        margin-right: 5px;
+    }
+    .col-1{
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-bottom: 60px;
+    }
+    .col-2{
+        margin-right: 60px; 
+        margin-left: 60px;
+        margin-top: 0px;
+        margin-bottom: 60px;
+    }
+    .col-3{
+        margin-right: 60px;
+        margin-left: 60px;
+        margin-top: 0px;
+    }   
+}
+ 
+/* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+      ul {
+    height: 100px;
+    }
+    li {
+    padding-right: 25px;
+    }
+     .li_beta1{
+        margin-right: 65px;
+    }
+    .li-beta{
+        margin-right: 35px;
+    }
+    .col-1{
+        margin-left: 60px;
+        margin-right: 450px;
+        margin-bottom: 60px;
+    }
+    .col-2{
+        margin-right: 450px; 
+        margin-left: 60px;
+        margin-top: 0px;
+        margin-bottom: 60px;
+    }
+    .col-3{
+        margin-right: 60px;
+        margin-left: 520px;
+        margin-top: -228px;
+    }    
+}
+ 
+/* Desktop grande */
+@media (min-width: 1005px) {
+    .li_beta1{
+        margin-right: 165px;
+    }
+    .li-beta{
+        margin-right: 175px;
+    }
+    .col-1{
+    margin-left: 20%;
+    margin-right: 1150px;
+}
+.col-2{
+    margin-right: 570px; 
+    margin-left: 900px;
+    margin-top: -90px;
+}
+.col-3{
+    margin-right: 120px;
+    margin-left: 1450px;
+    margin-top: -18px;
+}
+
+    
+}
