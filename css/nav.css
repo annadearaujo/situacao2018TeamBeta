@@ -1,0 +1,60 @@
+/*codigo para nav bar*/
+*{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 100px;
+}
+
+li {
+    float: right; 
+    padding-top: 35px;
+    padding-right: 50px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+ span a:hover {
+    text-decoration: none;
+    border-bottom: 3px solid #858686;
+    color: white;
+}
+/*hover da navbar*/
+    .beta1 a:hover{
+    text-decoration: none;
+    border-bottom: 3px solid #2090fc;
+    color: #2090fc;    
+    }
+    .beta2 a:hover{
+    text-decoration: none;
+    border-bottom: 3px solid #d9a420;
+    color: #d9a420;     
+    }
+    .beta3 a:hover{
+    text-decoration: none;
+    border-bottom: 3px solid #b32323;
+    color: #b32323;     
+    }
+    .beta4 a:hover{
+    text-decoration: none;
+    border-bottom: 3px solid #2e8c58;
+    color: #2e8c58;     
+    }
+    .li_beta1{
+        margin-right: 180px;
+    }
+    .li-beta{
+        margin-right: 250px;
+    }
