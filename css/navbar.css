@@ -1,0 +1,68 @@
+/*formatação geral*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*formataçãi li e ul*/
+.ul_navbar{
+	 list-style-type: none;
+	 background: #333;
+	 text-align: right;
+	 padding-right: 500px;
+	 height: 78px;
+}
+ul.ul_navbar li{
+	 display: inline-block;
+     margin: 0 26px;
+     margin-top: 25px;
+}
+/*formatação do link*/
+.link_nav{
+	text-decoration: none;
+	color: white;
+	font-size: 17px; 
+}
+/*hover de todos os links*/
+ul.ul_navbar li a:hover {
+	color: #007cfb;
+	border-bottom: 3px solid #007cfb;
+}
+
+
+
+/*midia caries,(por favor não mexer)*/
+
+/* Telefones em paisagem e abaixo */
+@media (max-width: 768px) {
+	body{
+		background-color: blue;
+	}
+	/*formataçãi li e ul*/
+	.ul_navbar{
+		list-style-type: none;
+	 	background: #333;
+		text-align: right;
+		padding-right: 50px;
+		height: 120px;
+	}
+	ul.ul_navbar li{
+		display: inline-block;
+    	margin: 0 10px;
+     	margin-top: 25px;
+	}
+}
+@media (min-width: 1005px) {
+	.ul_navbar{
+	 	list-style-type: none;
+	 	background: #333;
+	 	text-align: right;
+	 	padding-right: 500px;
+	 	height: 78px;
+	}
+	ul.ul_navbar li{
+	 	display: inline-block;
+    	 margin: 0 26px;
+    	 margin-top: 25px;
+	}
+}
